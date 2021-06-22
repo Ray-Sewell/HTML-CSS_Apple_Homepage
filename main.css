@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+main {
+    min-height: 830px;
+    max-height: 1472px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+    position: absolute;
+    margin-top: 1.4em;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 14px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    text-shadow: -1px -1px #444;
+}
+#billboard {
+    width: 100vw;
+    max-width: 1440px;
+    min-height: 538px;
+    height: 76vh;
+    background-size: 1440px 1315px;
+    background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    text-align: center;
+    color: white;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+h1 {
+    height: 100px;
+    overflow: hidden;
+}
+h2 {
+    margin-bottom: 27px;
+}
+h3 {
+    cursor: pointer;
+    height: 30px;
+}
+aside {
+    overflow: auto;
+    margin-top: 2px;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    gap: 2px;
+}
+.promo-img {
+    min-width: 256px;
+    width: 25%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+#footer-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 1em 3em 1em 3em;
+    font-size: .8334rem;
+    font: 10px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    color: #6e6e6e;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+}
+#left {
+    margin-right: 1em;
+    float: left;
+}
+#right {
+    margin-left: 1em;
+    margin-top: 1em;
+    float: right;
+}
+.left-p {
+    margin-top: 1em;
+}
+a, li {
+    color: #08c;
+    cursor: pointer;
+}
+ul, li {
+    list-style-type: none;
+    display: inline;
+}
+img {
+    overflow:initial;
+}
+#nav-list {
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid #696969;
+    gap: 1px;
+    background-color: #535353;
+    box-shadow: 1px 1px 2px #696969;
+    margin-bottom: 1em;
+}
+.nav-btn {
+    padding: 0.6em 1.8em;
+    padding-top: 0.7em;
+    margin: 0;
+    color: white;
+    background: rgb(143,143,143);
+    background: linear-gradient(0deg, rgba(143,143,143,1) 0%, rgba(113,113,113,1) 50%, rgba(95,95,95,1) 50%, rgba(117,117,117,1) 100%); 
+}
+#nav-btn-img {
+    padding-top: 0.4em;
+    padding-left: 1.8em;
+    padding-right: 1.8em;
+    background: rgb(143,143,143);
+    background: linear-gradient(0deg, rgba(143,143,143,1) 0%, rgba(113,113,113,1) 50%, rgba(95,95,95,1) 50%, rgba(117,117,117,1) 100%); 
+}
+.nav-btn:hover, #nav-btn-img:hover {
+    background: rgb(92,92,92);
+    background: linear-gradient(0deg, rgba(92,92,92,1) 0%, rgba(67,67,67,1) 50%, rgba(57,57,57,1) 50%, rgba(77,77,77,1) 100%); 
+}
+#github-icn {
+    fill:white;
+ }
